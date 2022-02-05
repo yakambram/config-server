@@ -6,3 +6,16 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+    
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/department
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update    
+    
+    
+    
